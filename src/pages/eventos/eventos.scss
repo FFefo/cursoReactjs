@@ -1,0 +1,21 @@
+.pagina-eventos{
+    align-items: center;
+
+    .secao{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+    }
+
+    .grupo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        input{
+            min-width: auto !important;
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 30px 50px;
+
+    .voltar {
+      font-size: 32px;
+    }
+
+    h2 {
+      color: #606060;
+      font: 600 36px 'Lato';
+
+    }
+  }
