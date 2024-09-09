@@ -21,6 +21,8 @@ export default function Comps() {
     const [nomeFilme, setNomeFilme] = useState('');
     const [classificacaoFilme, setClassificacaoFilme] = useState('');
     const [urlFilme, setUrlFilme] = useState('');
+    const [estreiaFilme, setEstreiaFilme] = useState('');
+    const [destaqueFilme, setDestaqueFilme] = useState(false);
     const [listaFilmes, setListaFilmes] = useState([]);
 
     function addMeta() {
@@ -107,7 +109,7 @@ export default function Comps() {
                 </div>
 
                 <div className='lista'>
-                    {listaFilmes.map((item, pos) =>
+                    {listaFilmes.map(item =>
                         <CartaoFilme item={item} />
                     )}
                 </div>
